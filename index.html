@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
     <script type="text/javascript" src="js/text.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,10 +19,10 @@
         <div id="overlay"></div>    
         <div id="main">
             <div class="discord-banner">
-                <img src="https://discordapp.com/api/guilds/932674654907269180/widget.png?style=banner2" alt="" width="303" >
+                <img src="https://discordapp.com/api/guilds/932674654907269180/widget.png?style=banner2" >
             </div>
             <div class="discord-widget">
-                <iframe src="https://discord.com/widget?id=932674654907269180&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe src="https://discord.com/widget?id=932674654907269180&theme=dark" width="315" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-same-origin allow-scripts" onclick="window.invokeNative('openUrl', 'https://discord.com/widget?id=932674654907269180&theme=dark');"></iframe>
             </div>
                 <header id="header">
                     <h1>F1YT2019</h1>
@@ -40,11 +40,13 @@
                           document.getElementById('time').innerHTML = (("0"+dt.getDate()).slice(-2))+"-"+ (("0"+(dt.getMonth()+1)).slice(-2))+"-"+ (dt.getFullYear()) +" "+ time;
                         }, );
                       </script>
-                      <h2 id="time"></h2>
+                      <h3>CURRENT TIME:</h3>
+                        <h2 id="time"></h2>
                         <nav>
                         <ul>
                             <li><a href="https://discord.me/almadarpdiscord" class="icon brands fa-discord" target="_blank" onclick="window.invokeNative('openUrl', 'https://discord.me/almadarpdiscord');" style="color: #738ADB"><span class="label">Discord</span></a></li>
-                            <li><a href="https://alrp.fun/" class="fa fa-window-maximize" target="_blank" onclick="window.invokeNative('openUrl', 'https://alrp.fun/');"><span class="label">Website</span></a></li>
+                            <li><a href="https://alrp.fun/" class="fas fa-code" target="_blank" onclick="window.invokeNative('openUrl', 'https://alrp.fun/');"><span class="label">Website</span></a></li>
+                            <li><a href="https://www.tiktok.com/@almada_roleplay" class="fab fa-tiktok" target="_blank" onclick="window.invokeNative('openUrl', 'https://www.tiktok.com/@almada_roleplay');" style="color: black"><span class="label">Website</span></a></li>
                             <li><a href="https://www.instagram.com/Almada_Roleplay/" class="icon brands fa-instagram" target="_blank" onclick="window.invokeNative('openUrl', 'https://www.instagram.com/Almada_Roleplay/');" style="color: #da10a4;"><span class="label">Instagram</span></a></li>
                         </ul>
                     </nav>
