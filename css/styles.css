@@ -687,7 +687,7 @@ video {
 		line-height: 8em;
 		position: absolute;
 		text-align: center;
-		color: #1f1f1f;
+		color: #ff0ddf;
 		width: 100%;
 	}
 	#footer a{
@@ -1399,8 +1399,8 @@ video {
     font-family: 'Montserrat', sans-serif;
     position: fixed;
     /* or absolute */
-    top: 8%;
-    right: 1%;
+    top: 80px;
+    right: 20px;
 	max-width: 100%;
 	height: auto;
     /* bring your own prefixes */
@@ -1418,8 +1418,8 @@ video {
     font-family: 'Montserrat', sans-serif;
     position: fixed;
     /* or absolute */
-    top: 60%;
-    right: -10%;
+    top: 420px;
+    right: -135px;
     /* shadow */
     box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
     /* bring your own prefixes */
