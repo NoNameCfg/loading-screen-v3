@@ -14,6 +14,7 @@ files {
     'img/*/*',
     'js/main.js',
     'video/video.mp4',
+    'main.lua',
 }
 
 loadscreen 'index.html'
