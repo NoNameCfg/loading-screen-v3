@@ -14,6 +14,6 @@ files {
     'js/main.js',
     'main.lua',
 }
-
+loadscreen_manual_shutdown 'yes'
 loadscreen 'index.html'
 loadscreen_cursor 'yes'
