@@ -9,11 +9,9 @@ files {
     'index.html',
     'audio/*.mp3',
     'css/styles.css',
-    'video/*',
     'img/*',
     'img/*/*',
     'js/main.js',
-    'video/video.mp4',
     'main.lua',
 }
 
